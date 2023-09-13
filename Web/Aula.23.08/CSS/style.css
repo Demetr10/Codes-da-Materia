@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Ringbearer;
+  src: url(../fonts/ringbearer.TTF);
+}
+
+* {
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+body {
+  background-color: brown;
+  font-family: Arial, sans-serif;
+}
+
+/*header nav li{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}*/
+header {
+  text-align: center;
+}
+a[href*="albo"] {
+  color: purple;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Cor roxa */
+}
+
+a[href*="albo"]:hover {
+  background-color: yellow; /* Cor amarela ao passar o mouse */
+}
+
+.titulo {
+  color: yellow;
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+.main  {
+
+}
+
+}
+
+nav u li {
+  position: center;
+  top: 0;
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+div {
+  width: 200px;
+}
+div {
+  height: 200px;
+}
+h2 {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(10, 10, 10);
+  background-color: rgb(148, 233, 11);
+}
+.secao-titulo {
+  color: purple;
+  background-color: rgb(214, 142, 214);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid yellow;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(3, 3, 3, 0.842);
+}
+
+.banner {
+  background-image: url("../img/capa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 600px;
+  text-align: center;
+  font-family: Ringbearer;
+  font-weight: bolder;
+  color: rgba(61, 38, 16, 0.842);
+  vertical-align: baseline;
+}
+
+.secao-botao {
+  text-decoration: none;
+  color: rgba(61, 38, 16, 0.842);
+}
+
+.secao-temp{
+  margin-bottom: 150px;
+}
+.secao-img{
+  margin-bottom: 50px;
+}
