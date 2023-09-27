@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-padding: var(--espacamento);
+  padding: var(--espacamento);
 }
 
 .header-menu ul {
@@ -109,9 +109,6 @@ section {
   justify-content: center;
   align-items: center;
   background-color: var(--cor-secundaria);
-
-
-  
 }
 .card figure img {
   width: 100%;
@@ -119,15 +116,14 @@ section {
 .card p {
   text-align: center;
   padding: 10px;
-  
-}/*
+} /*
 .card h3 {
   background-color: var(--cor-secundaria);
   color: white;
   padding: 5px 10px;
   text-align: center;
 }*/
-#section-pricing{
+#section-pricing {
   background-color: var(--cor-secundaria);
   padding: 15px 15px;
 
@@ -137,7 +133,7 @@ section {
 }
 
 .card-price {
- background-color: var(--cor-primaria);
+  background-color: var(--cor-primaria);
   border-radius: 15px;
   padding: 10px;
 }
@@ -148,7 +144,7 @@ section {
   justify-content: center;
   align-items: center;
   color: white;
-}/*
+} /*
 
 .card {
   width: 300px;
@@ -204,4 +200,45 @@ section {
 .fig-amazing img {
   width: 100%;
   height: 100%;
+}
+.section-statistc {
+  padding: 125px 25px;
+  background-color: var(--cor-secundaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 125px;
+  color: white;
+}
+.section-statistc .row1 {
+  padding: 0px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  color: rgb(175, 175, 175);
+}
+.section-statistc .row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.statitc-sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-herbet{
+  background-image: url("../img/sec-4.png");
+  height: 974px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.section-herbet h2{
+  color: white;
 }
