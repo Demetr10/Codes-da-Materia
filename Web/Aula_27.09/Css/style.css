@@ -1,0 +1,68 @@
+form{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+width: 60%;
+margin: auto;
+padding: 20px;
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+align-items: center;
+
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.container-form fieldset{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container-form fieldset >div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input[type="text"], input[type="email"], input[type="tell"], input[type="date"]{
+    padding: 5px;
+    border: none;
+    color: antiquewhite;
+}
+input[type="text"]::placeholder{
+    color: purple;
+}
+input[type="text"]:focus{
+    
+    outline: none;
+    border: 2px solid yellow;
+}
+textarea {
+    min-height: 150px;
+    resize: none;
+    outline: none;
+  }
+.container-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.container-botoes input{
+    width: 100px;
+    height: 35px;
+    background-color: #ee74e1;
+    border: none;
+    cursor: pointer;
+
+}
+.container-botoes input:hover{
+    background-color: #b350a9;
+}
