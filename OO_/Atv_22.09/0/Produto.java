@@ -38,3 +38,4 @@ public class Produto {
         return "Nome: " + nome + " | Preço: R$" + preco + " | Peso: " + peso + " kg";
     }
 }
+/* */
