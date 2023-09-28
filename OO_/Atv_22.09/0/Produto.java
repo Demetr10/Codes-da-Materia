@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Produto {
 
     private String nome;
@@ -34,8 +36,22 @@ public class Produto {
         this.peso = peso;
     }
 
+    public String getAddProduto() {
+        return nome;
+    }
+
+    public List<Produto> getProdutos() {
+        return getProdutos();
+    }
+
     public String toString() {
         return "Nome: " + nome + " | Preço: R$" + preco + " | Peso: " + peso + " kg";
     }
+
+    /*
+     * public Object getAddProduto() {
+     * return null;
+     * }
+     */
 }
 /* */

@@ -38,5 +38,9 @@ public class ListadCompra {
         return nomeLista;
     }
 
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
+
 }
 /* */
