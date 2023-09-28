@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class Produto {
 
     private String nome;
@@ -40,9 +38,11 @@ public class Produto {
         return nome;
     }
 
-    public List<Produto> getProdutos() {
-        return getProdutos();
-    }
+    /*
+     * public List<Produto> getProdutos() {
+     * return getProdutos();
+     * }
+     */
 
     public String toString() {
         return "Nome: " + nome + " | Preço: R$" + preco + " | Peso: " + peso + " kg";
